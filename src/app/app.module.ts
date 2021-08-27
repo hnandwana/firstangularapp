@@ -19,6 +19,8 @@ import { DBMSComponent } from './Components/subjects/dbms/dbms.component';
 import { LinearAlgebraComponent } from './Components/subjects/linear-algebra/linear-algebra.component';
 import { AbstractAlgebraComponent } from './Components/subjects/abstract-algebra/abstract-algebra.component';
 import { ParallelComputingComponent } from './Components/subjects/parallel-computing/parallel-computing.component';
+import { SubssComponent } from './Components/subjects/subss/subss.component';
+import { BreadComponent } from './Components/subjects/bread/bread.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { ParallelComputingComponent } from './Components/subjects/parallel-compu
     DBMSComponent,
     LinearAlgebraComponent,
     AbstractAlgebraComponent,
-    ParallelComputingComponent
+    ParallelComputingComponent,
+    SubssComponent,
+    BreadComponent
   ],
   imports: [
     BrowserModule,

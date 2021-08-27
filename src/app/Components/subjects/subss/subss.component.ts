@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-subjects',
-  templateUrl: './subjects.component.html',
-  styleUrls: ['./subjects.component.scss']
+  selector: 'app-subss',
+  templateUrl: './subss.component.html',
+  styleUrls: ['./subss.component.scss']
 })
-export class SubjectsComponent implements OnInit {
+export class SubssComponent implements OnInit 
+{
   
-  headers = ["S. No.", "Course"];
   rows = [
     {
       "ID" : "1",
@@ -60,15 +60,9 @@ export class SubjectsComponent implements OnInit {
 
   ]
 
-  subs: string[] = ['Absract Algebra', 'Computer Programming', 'Data Structures','DBMS',
-  'Differential Equations','Linear Algebra','Parallel Computing','Probability','Real Analysis']; 
+ 
   constructor() { }
 
-
- 
-
-
-  
   ngOnInit(): void {
   }
 

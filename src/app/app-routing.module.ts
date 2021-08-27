@@ -12,6 +12,7 @@ import { ParallelComputingComponent } from './Components/subjects/parallel-compu
 import { ProbabilityComponent } from './Components/subjects/probability/probability.component';
 import { RealAnalysisComponent } from './Components/subjects/real-analysis/real-analysis.component';
 import { SubjectsComponent } from './Components/subjects/subjects.component';
+import { SubssComponent } from './Components/subjects/subss/subss.component';
 import { TimeTableComponent } from './Components/time-table/time-table.component';
 
 
@@ -20,6 +21,7 @@ const routes: Routes = [
 
 
  {path: 'Subjects', component: SubjectsComponent},  
+ {path: 'subss', component: SubssComponent},
  {path: 'abstract', component: AbstractAlgebraComponent},
  {path: 'cpp', component: ComputerProgrammingComponent},
  {path: 'prob', component: ProbabilityComponent},
